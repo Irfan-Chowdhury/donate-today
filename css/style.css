@@ -1,0 +1,49 @@
+/* Update Section */
+#updates{
+    padding: 70px; 
+    background-color:#fff; 
+    text-align:center
+}
+#updates h1{
+    font-size: 40px;
+}
+#updates h3{
+    color:darkgrey;
+}
+#formDiv {
+    background-color: rgb(209, 208, 209);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 70px;
+}
+#formDiv form{
+    padding-bottom: 50px;
+}
+#formDiv form input{
+    background-color:rgb(222, 230, 193); 
+    padding:10px;
+    border-radius: 5px;
+    border: 0px ;
+}
+#formDiv form label{
+    color: aliceblue;
+    background-color:rgb(230, 74, 71); 
+    padding:10px;
+    border-radius: 5px;
+}
+
+
+/* Footer Section */
+#footer{
+    background-color:#152238;
+    padding-top:10px; 
+    padding-bottom:20px; 
+    text-align: center;
+}
+#footer h2{
+    font-family:cursive, fantasy; 
+    color:#f0544f;
+}
+#footer small{
+    color:aliceblue;
+}
