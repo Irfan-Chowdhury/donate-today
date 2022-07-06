@@ -7,6 +7,48 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ============ Image ====================== */
+#container-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-size: cover;
+
+}
+#container-banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,1.25);
+
+}
+
+#container-banner img{
+    opacity: 0.75;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.centered h1{
+    font-size: 55px;
+}
+.centered .common-paragraph{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    font-size: 17px;
+    line-height: 1.6;
+
+}
 /* ============ Donate Today ====================== */
 #donateToday{
     padding: 70px; 
@@ -43,7 +85,7 @@
     background-color:rgb(255, 89, 89); 
     font-size: 20px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     margin-right: 90px;
 
 }
@@ -101,14 +143,16 @@
 #formDiv form input{
     background-color:rgb(217, 217, 217); 
     padding:10px;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     border: 0px ;
 }
 #formDiv form label{
     color: aliceblue;
     background-color:rgb(255, 89, 89); 
     padding:10px;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+
 }
 
 
